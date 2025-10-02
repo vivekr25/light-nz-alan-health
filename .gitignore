@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+.data/
+.DS_Store
+data_raw/
+*.tif
+*.zip
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
