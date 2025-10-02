@@ -1,0 +1,11 @@
+shapely
+pyproj
+rasterstats
+pandas
+numpy
+matplotlib
+plotly
+streamlit
+openpyxl
+requests
+tqdm
