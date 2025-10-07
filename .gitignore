@@ -1,12 +1,22 @@
+# Python cache & env
 __pycache__/
 *.pyc
 .venv/
 .env
+
+# Notebook junk
 .ipynb_checkpoints/
-.data/
+
+# OS/editor
 .DS_Store
-data_raw/
+.vscode/
+.idea/
+
+# Data (raw & large binaries)
+data_raw/**
+!data_raw/README.md
 *.tif
+*.tiff
 *.zip
 *.gpkg
 *.shp
@@ -14,3 +24,5 @@ data_raw/
 *.dbf
 *.prj
 *.cpg
+*.geojson
+*.pdf
