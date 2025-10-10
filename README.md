@@ -21,6 +21,38 @@ This project maps and ranks average night-time **radiance** across New Zealand�
 - **Why Hamilton > Auckland on the absolute chart?**  
   Our metric is **TA-average radiance**, not total lumens. Hamilton’s urban area is compact and consistently bright, which pushes up its mean. Auckland’s very large TA includes darker rural/coastal areas that **dilute** the mean.
 
+  📊 Radiance Trends and Urban Patterns (2021 Snapshot)
+
+🗺️ National Trend — VIIRS Annual
+Currently only 2021 data is available, so this chart shows a single point.
+	•	Future additions (2014–2023) will reveal whether NZ’s average night-time brightness — a proxy for urban and economic activity — is rising, flattening, or declining.
+	•	A higher mean than median indicates that a few bright cities (e.g., Hamilton, Tauranga, Auckland) are pulling the national average upward.
+	•	Expected pattern once full data is loaded: a gradual upward drift reflecting expanding infrastructure, housing, and electrification.
+
+  🌆 Top 12 Territorial Authorities by Mean Radiance (2021)
+  The brightest areas include Hamilton City, Tauranga City, Napier City, Wellington, Christchurch, and Kawerau District.
+	•	These represent densely lit urban cores or industrial hubs with concentrated artificial light.
+	•	Hamilton City currently stands out as NZ’s brightest region by mean radiance.
+	•	Once earlier years are added, these small multiples will reveal which cities are growing faster in light intensity and which have stabilized.
+
+  🏙️ City vs District Radiance Distribution (2021)
+  Cities have a much higher median and a broader range of brightness than districts.
+	•	The upper quartile for cities is roughly 10× brighter than the typical district.
+	•	Districts appear dimmer overall because light is averaged over larger, more rural land areas.
+	•	Example:
+	•	Auckland’s mean brightness looks lower than Hamilton’s — not because it’s darker, but because its lighting is spread across a vast area.
+	•	Compact cities like Hamilton or Tauranga have intense light concentration, driving higher mean values.
+
+  🧭 Summary Insight
+
+New Zealand’s night-time light landscape is dominated by compact urban centers rather than sprawling metros.
+As more years are added, this dataset will help quantify how urban brightness evolves over time — a valuable proxy for both economic activity and energy use efficiency.
+
+⸻
+
+✅ Charts generated using VIIRS Night-time Lights (NASA, 2021) and Stats NZ TA 2025 boundaries.
+💡 Next: Extend dataset to 2014–2023 and visualize longitudinal growth patterns.
+
 ### Top 15: absolute mean radiance
 ![Top 15 by mean radiance](data_proc/top15_abs_radiance.png)
 
