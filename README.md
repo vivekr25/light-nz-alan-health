@@ -46,3 +46,8 @@ conda activate alan-nz
 python scripts/31_single_map_toggle.py        # builds map + PNG
 python scripts/36_normalize_and_rank.py       # builds normalized CSV
 python scripts/37_make_normalized_charts.py   # builds the two charts
+
+## Data & credits
+	•	VIIRS Night Lights (2021) – NASA/NOAA
+	•	Administrative boundaries – Stats NZ, TA 2025
+	•	Processing & visualization – Python, Pandas, Plotly.
