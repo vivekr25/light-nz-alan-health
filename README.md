@@ -83,3 +83,16 @@ python scripts/37_make_normalized_charts.py   # builds the two charts
 	•	VIIRS Night Lights (2021) – NASA/NOAA
 	•	Administrative boundaries – Stats NZ, TA 2025
 	•	Processing & visualization – Python, Pandas, Plotly.
+---
+
+## 🩺 Obesity vs Night-time Brightness (Health NZ Regions)
+
+This visual pairs *NASA’s VIIRS 2021 night-lights* with *Ministry of Health 2020/21 adult obesity data* across Health NZ regions and ethnic groups.
+
+- **Te Manawa Taki** stands out — the brightest and most uniformly high in obesity across all ethnicities.  
+- **Te Tai Tokerau** and **Te Waipounamu** remain dimmer, yet ethnic disparities persist.  
+- Urban brightness doesn’t erase inequities — it often illuminates them.
+
+![Obesity vs Night-time Brightness Small Multiples](data_proc/obesity_vs_brightness_small_multiples.png)
+
+[🔗 Explore the interactive map](https://vivekr25.github.io/light-nz-alan-health/)
