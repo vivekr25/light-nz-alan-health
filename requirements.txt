@@ -1,11 +1,14 @@
-shapely
+# --- Core geospatial + analysis ---
+shapely>=2.0
 pyproj
 rasterstats
-pandas
-numpy
+pandas>=2.2
+numpy<2
 matplotlib
-plotly
-streamlit
-openpyxl
 requests
 tqdm
+openpyxl>=3.1
+
+# --- Visualisation & dashboards ---
+plotly>=5.22
+streamlit>=1.36

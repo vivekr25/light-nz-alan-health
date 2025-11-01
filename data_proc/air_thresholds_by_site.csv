@@ -1,0 +1,819 @@
+region,site_name,lawa_site_id,indicator,year,days_measured,exceed_who_daily,exceed_nes_daily
+Auckland,Glen Eden,LAWA-100059,PM10,2016,365,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2017,358,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2018,323,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2019,357,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2020,362,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2021,348,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2022,364,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2023,350,0,0.0
+Auckland,Glen Eden,LAWA-100059,PM10,2024,360,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2016,363,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2017,348,1,1.0
+Auckland,Henderson,LAWA-100064,PM10,2018,321,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2019,362,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2020,366,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2021,354,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2022,348,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2023,361,0,0.0
+Auckland,Henderson,LAWA-100064,PM10,2024,357,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2016,363,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2017,359,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2018,355,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2019,363,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2020,364,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2021,351,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2022,362,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2023,359,0,0.0
+Auckland,Pakuranga,LAWA-100103,PM10,2024,353,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2016,355,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2017,351,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2018,344,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2019,346,1,1.0
+Auckland,Patumahoe,LAWA-100106,PM10,2020,364,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2021,341,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2022,328,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2023,361,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM10,2024,350,0,0.0
+Auckland,Patumahoe,LAWA-100106,PM2.5,2016,352,0,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2017,287,0,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2018,326,0,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2019,316,1,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2020,327,0,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2021,329,0,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2022,323,2,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2023,340,1,
+Auckland,Patumahoe,LAWA-100106,PM2.5,2024,337,2,
+Auckland,Penrose,LAWA-100110,PM10,2016,342,1,1.0
+Auckland,Penrose,LAWA-100110,PM10,2017,347,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2018,346,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2019,350,1,1.0
+Auckland,Penrose,LAWA-100110,PM10,2020,362,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2021,351,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2022,363,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2023,363,0,0.0
+Auckland,Penrose,LAWA-100110,PM10,2024,352,0,0.0
+Auckland,Penrose,LAWA-100110,PM2.5,2016,339,10,
+Auckland,Penrose,LAWA-100110,PM2.5,2017,360,3,
+Auckland,Penrose,LAWA-100110,PM2.5,2018,330,13,
+Auckland,Penrose,LAWA-100110,PM2.5,2019,341,5,
+Auckland,Penrose,LAWA-100110,PM2.5,2020,289,0,
+Auckland,Penrose,LAWA-100110,PM2.5,2021,332,2,
+Auckland,Penrose,LAWA-100110,PM2.5,2022,346,0,
+Auckland,Penrose,LAWA-100110,PM2.5,2023,305,1,
+Auckland,Penrose,LAWA-100110,PM2.5,2024,352,5,
+Auckland,Queen Street,LAWA-100113,PM10,2017,280,0,0.0
+Auckland,Queen Street,LAWA-100113,PM10,2018,342,0,0.0
+Auckland,Queen Street,LAWA-100113,PM10,2019,357,2,1.0
+Auckland,Queen Street,LAWA-100113,PM10,2020,350,0,0.0
+Auckland,Queen Street,LAWA-100113,PM10,2021,365,1,0.0
+Auckland,Queen Street,LAWA-100113,PM10,2022,352,2,2.0
+Auckland,Queen Street,LAWA-100113,PM10,2023,230,1,1.0
+Auckland,Queen Street,LAWA-100113,PM2.5,2017,161,0,
+Auckland,Queen Street,LAWA-100113,PM2.5,2018,342,0,
+Auckland,Queen Street,LAWA-100113,PM2.5,2019,357,3,
+Auckland,Queen Street,LAWA-100113,PM2.5,2020,350,0,
+Auckland,Queen Street,LAWA-100113,PM2.5,2021,365,5,
+Auckland,Queen Street,LAWA-100113,PM2.5,2022,352,3,
+Auckland,Queen Street,LAWA-100113,PM2.5,2023,230,4,
+Auckland,Takapuna,LAWA-100124,PM10,2016,356,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2017,323,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2018,362,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2019,362,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2020,365,1,1.0
+Auckland,Takapuna,LAWA-100124,PM10,2021,353,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2022,362,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2023,329,0,0.0
+Auckland,Takapuna,LAWA-100124,PM10,2024,364,0,0.0
+Auckland,Takapuna,LAWA-100124,PM2.5,2016,354,8,
+Auckland,Takapuna,LAWA-100124,PM2.5,2017,287,6,
+Auckland,Takapuna,LAWA-100124,PM2.5,2018,328,9,
+Auckland,Takapuna,LAWA-100124,PM2.5,2019,363,6,
+Auckland,Takapuna,LAWA-100124,PM2.5,2020,353,0,
+Auckland,Takapuna,LAWA-100124,PM2.5,2021,312,6,
+Auckland,Takapuna,LAWA-100124,PM2.5,2022,358,3,
+Auckland,Takapuna,LAWA-100124,PM2.5,2023,326,1,
+Auckland,Takapuna,LAWA-100124,PM2.5,2024,335,1,
+Bay of Plenty,Mount Maunganui at Bridge Marina Entrance,LAWA-103979 ,PM10,2024,88,0,0.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2018,66,1,0.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2019,356,35,17.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2020,356,9,6.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2021,357,2,1.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2022,364,5,3.0
+Bay of Plenty,Mount Maunganui at Rail Yard South,LAWA-102810,PM10,2023,26,1,0.0
+Bay of Plenty,Mount Maunganui at Ranch Rd,LAWA-103977,PM10,2024,326,3,1.0
+Bay of Plenty,Mount Maunganui at Ranch Rd,LAWA-103977,PM2.5,2024,320,0,
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2018,18,0,0.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2019,350,1,1.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2020,360,4,2.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2021,363,5,4.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2022,364,6,4.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2023,365,7,3.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM10,2024,357,1,1.0
+Bay of Plenty,Mount Maunganui at Rata St,LAWA-102812,PM2.5,2024,123,0,
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2018,148,0,0.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2019,357,1,0.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2020,351,0,0.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2021,356,0,0.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2022,346,4,3.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2023,351,0,0.0
+Bay of Plenty,Mount Maunganui at Tauranga Bridge Marina,LAWA-102811,PM10,2024,141,2,1.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2018,143,0,0.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2019,362,2,2.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2020,365,2,0.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2021,365,1,1.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2022,364,7,2.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM10,2023,212,1,0.0
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2018,139,2,
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2019,337,5,
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2020,365,1,
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2021,363,1,
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2022,331,1,
+Bay of Plenty,Mount Maunganui at Totara St,LAWA-102805,PM2.5,2023,212,0,
+Bay of Plenty,Mount Maunganui at Totara St Rail Crossing,LAWA-103978 ,PM10,2024,345,1,0.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2018,142,4,3.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2019,351,5,1.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2020,356,1,1.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2021,356,0,0.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2022,345,0,0.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2023,360,0,0.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM10,2024,357,0,0.0
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM2.5,2023,48,0,
+Bay of Plenty,Mount Maunganui at Whareroa Marae,LAWA-102806,PM2.5,2024,362,0,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2016,182,4,3.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2017,364,21,14.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2018,343,6,3.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2019,357,5,4.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2020,352,1,1.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2021,364,1,0.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2022,334,0,0.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2023,360,0,0.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM10,2024,360,0,0.0
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2016,316,53,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2017,359,86,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2018,330,60,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2019,357,58,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2020,352,43,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2021,364,46,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2022,334,31,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2023,360,29,
+Bay of Plenty,Rotorua at Edmund Rd,LAWA-100150,PM2.5,2024,360,40,
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2018,262,4,3.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2019,317,0,0.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2020,192,0,0.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2021,363,0,0.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2022,354,1,1.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2023,353,0,0.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM10,2024,316,0,0.0
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM2.5,2020,106,7,
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM2.5,2021,361,26,
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM2.5,2022,364,26,
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM2.5,2023,364,40,
+Bay of Plenty,Rotorua at Moses Rd,LAWA-103651 ,PM2.5,2024,314,39,
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2016,308,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2017,359,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2018,287,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2019,248,1,1.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2020,354,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2021,339,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2022,330,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2023,292,0,0.0
+Bay of Plenty,Tauranga at Otumoetai,LAWA-100126,PM10,2024,362,0,0.0
+Bay of Plenty,Tauranga at Sulphur Point,LAWA-102814,PM10,2018,129,0,0.0
+Bay of Plenty,Tauranga at Sulphur Point,LAWA-102814,PM10,2019,364,1,1.0
+Bay of Plenty,Tauranga at Sulphur Point,LAWA-102814,PM10,2020,360,0,0.0
+Bay of Plenty,Tauranga at Sulphur Point,LAWA-102814,PM10,2021,363,0,0.0
+Bay of Plenty,Tauranga at Sulphur Point,LAWA-102814,PM10,2022,360,2,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2017,228,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2018,343,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2019,362,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2020,360,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2021,358,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2022,339,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2023,356,0,0.0
+Bay of Plenty,Whakatane at Kopeopeo,LAWA-100144,PM10,2024,362,0,0.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2016,366,33,28.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2017,365,27,18.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2018,365,15,10.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2019,365,23,13.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2020,366,16,11.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2021,365,20,15.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2022,364,13,5.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2023,363,10,6.0
+Canterbury,Anzac Square,LAWA-100164,PM10,2024,364,14,7.0
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2016,365,89,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2017,365,86,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2018,364,73,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2019,365,67,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2020,359,75,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2021,365,81,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2022,364,77,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2023,363,76,
+Canterbury,Anzac Square,LAWA-100164,PM2.5,2024,364,73,
+Canterbury,Geraldine,LAWA-100056,PM10,2016,363,3,2.0
+Canterbury,Geraldine,LAWA-100056,PM10,2017,365,4,2.0
+Canterbury,Geraldine,LAWA-100056,PM10,2018,363,1,1.0
+Canterbury,Geraldine,LAWA-100056,PM10,2019,357,2,1.0
+Canterbury,Geraldine,LAWA-100056,PM10,2020,365,1,0.0
+Canterbury,Geraldine,LAWA-100056,PM10,2021,351,0,0.0
+Canterbury,Geraldine,LAWA-100056,PM10,2022,365,0,0.0
+Canterbury,Geraldine,LAWA-100056,PM10,2023,364,1,0.0
+Canterbury,Geraldine,LAWA-100056,PM10,2024,360,0,0.0
+Canterbury,Geraldine,LAWA-100056,PM2.5,2016,315,72,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2017,365,92,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2018,363,68,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2019,357,62,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2020,365,68,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2021,362,53,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2022,365,38,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2023,364,46,
+Canterbury,Geraldine,LAWA-100056,PM2.5,2024,360,56,
+Canterbury,Hampstead,LAWA-100025,PM10,2016,364,4,2.0
+Canterbury,Hampstead,LAWA-100025,PM10,2017,365,4,3.0
+Canterbury,Hampstead,LAWA-100025,PM10,2018,365,2,2.0
+Canterbury,Hampstead,LAWA-100025,PM10,2019,365,5,1.0
+Canterbury,Hampstead,LAWA-100025,PM10,2020,366,2,0.0
+Canterbury,Hampstead,LAWA-100025,PM10,2021,365,0,0.0
+Canterbury,Hampstead,LAWA-100025,PM10,2022,365,4,1.0
+Canterbury,Hampstead,LAWA-100025,PM10,2023,365,0,0.0
+Canterbury,Hampstead,LAWA-100025,PM10,2024,366,4,2.0
+Canterbury,Hampstead,LAWA-100025,PM2.5,2016,355,62,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2017,358,65,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2018,365,53,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2019,365,48,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2020,366,46,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2021,365,40,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2022,365,44,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2023,365,33,
+Canterbury,Hampstead,LAWA-100025,PM2.5,2024,366,58,
+Canterbury,Kaiapoi,LAWA-100071,PM10,2016,361,10,7.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2017,363,16,12.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2018,359,8,2.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2019,365,11,8.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2020,335,5,3.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2021,364,6,3.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2022,365,16,11.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2023,362,8,5.0
+Canterbury,Kaiapoi,LAWA-100071,PM10,2024,366,18,10.0
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2016,117,1,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2017,361,85,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2018,361,63,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2019,365,77,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2020,336,58,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2021,364,62,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2022,365,66,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2023,362,69,
+Canterbury,Kaiapoi,LAWA-100071,PM2.5,2024,366,84,
+Canterbury,Rangiora,LAWA-100115,PM10,2016,363,9,7.0
+Canterbury,Rangiora,LAWA-100115,PM10,2017,365,9,7.0
+Canterbury,Rangiora,LAWA-100115,PM10,2018,364,1,0.0
+Canterbury,Rangiora,LAWA-100115,PM10,2019,363,9,3.0
+Canterbury,Rangiora,LAWA-100115,PM10,2020,334,6,4.0
+Canterbury,Rangiora,LAWA-100115,PM10,2021,365,7,2.0
+Canterbury,Rangiora,LAWA-100115,PM10,2022,365,5,3.0
+Canterbury,Rangiora,LAWA-100115,PM10,2023,365,4,2.0
+Canterbury,Rangiora,LAWA-100115,PM10,2024,366,1,1.0
+Canterbury,Rangiora,LAWA-100115,PM2.5,2016,363,57,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2017,349,63,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2018,349,39,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2019,344,53,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2020,334,63,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2021,365,47,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2022,365,44,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2023,365,51,
+Canterbury,Rangiora,LAWA-100115,PM2.5,2024,366,59,
+Canterbury,St Albans,LAWA-100122,PM10,2016,366,5,3.0
+Canterbury,St Albans,LAWA-100122,PM10,2017,365,8,4.0
+Canterbury,St Albans,LAWA-100122,PM10,2018,365,5,3.0
+Canterbury,St Albans,LAWA-100122,PM10,2019,365,6,4.0
+Canterbury,St Albans,LAWA-100122,PM10,2020,320,4,2.0
+Canterbury,St Albans,LAWA-100122,PM2.5,2016,364,44,
+Canterbury,St Albans,LAWA-100122,PM2.5,2017,353,49,
+Canterbury,St Albans,LAWA-100122,PM2.5,2018,349,32,
+Canterbury,St Albans,LAWA-100122,PM2.5,2019,363,42,
+Canterbury,St Albans,LAWA-100122,PM2.5,2020,320,38,
+Canterbury,St Albans EP,LAWA-102877,PM10,2021,29,0,0.0
+Canterbury,St Albans EP,LAWA-102877,PM10,2022,365,6,3.0
+Canterbury,St Albans EP,LAWA-102877,PM10,2023,358,2,1.0
+Canterbury,St Albans EP,LAWA-102877,PM10,2024,361,3,2.0
+Canterbury,St Albans EP,LAWA-102877,PM2.5,2021,29,0,
+Canterbury,St Albans EP,LAWA-102877,PM2.5,2022,365,43,
+Canterbury,St Albans EP,LAWA-102877,PM2.5,2023,358,39,
+Canterbury,St Albans EP,LAWA-102877,PM2.5,2024,363,44,
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2016,357,3,1.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2017,355,3,3.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2018,354,0,0.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2019,360,4,2.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2020,366,2,0.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2021,365,1,0.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2022,365,0,0.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2023,365,2,1.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM10,2024,366,0,0.0
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2016,356,73,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2017,358,71,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2018,358,43,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2019,365,58,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2020,366,58,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2021,365,42,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2022,365,39,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2023,365,53,
+Canterbury,Waimate Kennedy,LAWA-100159,PM2.5,2024,366,56,
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2019,284,23,15.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2020,366,41,23.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2021,359,39,30.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2022,364,45,21.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2023,365,44,36.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM10,2024,366,40,27.0
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2019,288,13,
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2020,366,14,
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2021,359,24,
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2022,364,19,
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2023,365,18,
+Canterbury,Washdyke Alpine,LAWA-102266,PM2.5,2024,366,7,
+Canterbury,Woolston,LAWA-100146,PM10,2016,366,6,4.0
+Canterbury,Woolston,LAWA-100146,PM10,2017,361,11,3.0
+Canterbury,Woolston,LAWA-100146,PM10,2018,365,6,4.0
+Canterbury,Woolston,LAWA-100146,PM10,2019,365,7,5.0
+Canterbury,Woolston,LAWA-100146,PM10,2020,365,8,7.0
+Canterbury,Woolston,LAWA-100146,PM10,2021,365,3,1.0
+Canterbury,Woolston,LAWA-100146,PM10,2022,362,4,2.0
+Canterbury,Woolston,LAWA-100146,PM10,2023,365,1,1.0
+Canterbury,Woolston,LAWA-100146,PM10,2024,362,1,1.0
+Canterbury,Woolston,LAWA-100146,PM2.5,2016,350,27,
+Canterbury,Woolston,LAWA-100146,PM2.5,2017,358,30,
+Canterbury,Woolston,LAWA-100146,PM2.5,2018,365,21,
+Canterbury,Woolston,LAWA-100146,PM2.5,2019,365,28,
+Canterbury,Woolston,LAWA-100146,PM2.5,2020,365,26,
+Canterbury,Woolston,LAWA-100146,PM2.5,2021,365,15,
+Canterbury,Woolston,LAWA-100146,PM2.5,2022,362,20,
+Canterbury,Woolston,LAWA-100146,PM2.5,2023,365,16,
+Canterbury,Woolston,LAWA-100146,PM2.5,2024,362,26,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2019,73,3,1.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2020,317,23,17.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2021,334,25,19.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2022,365,21,16.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2023,323,7,4.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM10,2024,353,13,7.0
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2019,84,10,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2020,318,67,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2021,334,67,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2022,365,55,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2023,322,38,
+Gisborne,Gisborne Boys' High School,LAWA-100058,PM2.5,2024,358,50,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2016,365,1,0.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2017,347,6,1.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2018,359,9,4.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2019,353,2,0.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2020,355,8,2.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2021,361,10,6.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2022,274,6,3.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2023,255,14,7.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM10,2024,263,11,9.0
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2016,110,1,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2017,358,3,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2018,362,3,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2019,308,8,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2020,341,2,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2021,343,5,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2022,245,5,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2023,41,0,
+Hawke's Bay,Awatoto AQ,LAWA-100026,PM2.5,2024,124,5,
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2016,340,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2017,333,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2018,347,2,1.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2019,361,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2020,357,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2021,363,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2022,337,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2023,357,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM10,2024,357,0,0.0
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2019,276,22,
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2020,323,34,
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2021,263,28,
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2022,86,2,
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2023,40,0,
+Hawke's Bay,Marewa Park,LAWA-100082,PM2.5,2024,363,30,
+Hawke's Bay,St Johns,LAWA-100149,PM10,2016,333,10,8.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2017,349,1,1.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2018,360,4,3.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2019,360,3,2.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2020,363,6,1.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2021,365,0,0.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2022,343,9,8.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2023,356,6,2.0
+Hawke's Bay,St Johns,LAWA-100149,PM10,2024,358,6,1.0
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2016,181,33,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2017,348,74,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2018,359,54,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2019,351,46,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2020,293,28,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2021,362,48,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2022,356,46,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2023,359,41,
+Hawke's Bay,St Johns,LAWA-100149,PM2.5,2024,350,53,
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM10,2022,268,1,0.0
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM10,2023,362,1,1.0
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM10,2024,356,0,0.0
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM2.5,2022,268,46,
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM2.5,2023,364,44,
+Manawatū-Whanganui,126 Hautapu Street,LAWA-100002,PM2.5,2024,356,66,
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2016,356,0,0.0
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2017,359,1,0.0
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2018,357,0,0.0
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2019,350,2,0.0
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2020,351,1,0.0
+Manawatū-Whanganui,33 Kuku Street,LAWA-100002,PM10,2021,38,0,0.0
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM10,2021,294,0,0.0
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM10,2022,351,0,0.0
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM10,2023,334,0,0.0
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM10,2024,350,0,0.0
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM2.5,2021,294,26,
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM2.5,2022,282,0,
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM2.5,2023,191,0,
+Manawatū-Whanganui,34 Maata Street,LAWA-100028,PM2.5,2024,298,30,
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2016,360,4,4.0
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2017,296,0,0.0
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2018,361,0,0.0
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2019,330,0,0.0
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2020,307,0,0.0
+Manawatū-Whanganui,Baptist Friendship Centre - 250 Taupo Road,LAWA-100028,PM10,2021,67,0,0.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2016,348,15,6.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2017,361,17,12.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2018,362,13,7.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2019,362,3,1.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2020,365,11,3.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2021,364,24,17.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2022,347,2,1.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2023,364,3,1.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM10,2024,361,0,0.0
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2016,12,0,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2017,365,123,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2018,365,121,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2019,360,103,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2020,366,101,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2021,320,89,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2022,181,24,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2023,203,61,
+Marlborough,Blenheim Bowling Club,LAWA-100031,PM2.5,2024,362,76,
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2016,359,2,1.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2017,357,4,3.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2018,362,2,0.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2019,362,2,2.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2020,355,0,0.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2021,321,0,0.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2022,359,2,0.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2023,304,3,1.0
+Nelson,Nelson at Blackwood St,LAWA-100091,PM10,2024,332,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2016,152,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2017,178,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2018,167,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2019,203,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2020,110,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2021,117,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2022,101,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2023,51,0,0.0
+Nelson,Nelson at Brook,LAWA-100092,PM10,2024,42,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2016,347,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2017,323,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2018,13,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2019,169,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2020,57,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2021,91,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2022,48,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2023,49,0,0.0
+Nelson,Nelson at Green Meadows,LAWA-100093,PM10,2024,18,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2016,356,2,1.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2017,356,4,1.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2018,357,11,2.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2019,361,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2020,364,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2021,363,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2022,358,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2023,356,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM10,2024,346,0,0.0
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2016,111,22,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2017,43,7,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2018,299,64,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2019,361,81,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2020,311,64,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2021,346,54,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2022,355,49,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2023,350,62,
+Nelson,Nelson at St Vincent St,LAWA-100094,PM2.5,2024,353,71,
+Northland,Dargaville Air Shed at Charlotte Street,LAWA-103912,PM10,2024,150,0,0.0
+Northland,Kaitāia Air Shed at Commerce Street,LAWA-103802,PM10,2024,294,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2016,333,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2017,363,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2018,365,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2019,354,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2020,363,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2021,352,1,1.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2022,359,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2023,341,0,0.0
+Northland,Marsden Point Air Shed at Ruakaka,LAWA-100005,PM10,2024,30,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2016,363,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2017,354,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2018,362,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2019,365,1,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2020,366,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2021,351,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2022,363,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2023,365,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM10,2024,364,0,0.0
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2016,154,4,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2017,351,8,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2018,359,15,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2019,347,7,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2020,336,10,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2021,362,5,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2022,364,2,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2023,359,0,
+Northland,Whangārei Air Shed at Robert Street,LAWA-100006,PM2.5,2024,360,0,
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2017,215,8,4.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2018,360,5,3.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2019,345,9,6.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2020,356,7,6.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2021,352,3,3.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2022,360,5,4.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2023,345,5,3.0
+Otago,Alexandra at 5 Ventry Street,LAWA-100575,PM10,2024,345,13,11.0
+Otago,Arrowtown,LAWA-100023,PM10,2016,341,38,35.0
+Otago,Arrowtown,LAWA-100023,PM10,2017,348,59,54.0
+Otago,Arrowtown,LAWA-100023,PM10,2018,338,39,35.0
+Otago,Arrowtown,LAWA-100023,PM10,2019,345,28,24.0
+Otago,Arrowtown,LAWA-100023,PM10,2020,340,43,35.0
+Otago,Arrowtown,LAWA-100023,PM10,2021,83,0,0.0
+Otago,Arrowtown,LAWA-100023,PM10,2022,355,16,12.0
+Otago,Arrowtown,LAWA-100023,PM10,2023,360,19,12.0
+Otago,Arrowtown,LAWA-100023,PM10,2024,361,24,17.0
+Otago,Central Dunedin,LAWA-100040,PM10,2016,310,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2017,356,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2018,355,1,1.0
+Otago,Central Dunedin,LAWA-100040,PM10,2019,344,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2020,340,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2021,354,1,1.0
+Otago,Central Dunedin,LAWA-100040,PM10,2022,355,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2023,364,0,0.0
+Otago,Central Dunedin,LAWA-100040,PM10,2024,354,0,0.0
+Otago,Clyde,LAWA-100048,PM10,2016,174,24,19.0
+Otago,Clyde,LAWA-100048,PM10,2017,190,29,24.0
+Otago,Clyde,LAWA-100048,PM10,2018,178,10,6.0
+Otago,Clyde,LAWA-100048,PM10,2019,197,8,5.0
+Otago,Clyde,LAWA-100048,PM10,2020,125,7,5.0
+Otago,Cromwell,LAWA-100051,PM10,2016,169,37,34.0
+Otago,Cromwell,LAWA-100051,PM10,2017,171,53,43.0
+Otago,Cromwell,LAWA-100051,PM10,2018,131,15,14.0
+Otago,Cromwell,LAWA-100051,PM10,2019,159,19,13.0
+Otago,Cromwell,LAWA-100051,PM10,2020,153,17,17.0
+Otago,Cromwell,LAWA-100051,PM10,2021,174,25,20.0
+Otago,Milton,LAWA-100086,PM10,2016,149,43,37.0
+Otago,Milton,LAWA-100086,PM10,2017,183,56,48.0
+Otago,Milton,LAWA-100086,PM10,2018,160,20,17.0
+Otago,Milton,LAWA-100086,PM10,2019,172,24,21.0
+Otago,Milton,LAWA-100086,PM10,2020,141,27,23.0
+Otago,Milton,LAWA-100086,PM10,2021,186,15,13.0
+Otago,Mosgiel,LAWA-100088,PM10,2016,255,10,9.0
+Otago,Mosgiel,LAWA-100088,PM10,2017,345,11,9.0
+Otago,Mosgiel,LAWA-100088,PM10,2018,324,6,4.0
+Otago,Mosgiel,LAWA-100088,PM10,2019,335,10,5.0
+Otago,Mosgiel,LAWA-100088,PM10,2020,358,9,6.0
+Otago,Mosgiel,LAWA-100088,PM10,2021,353,5,4.0
+Otago,Mosgiel,LAWA-100088,PM10,2022,278,2,1.0
+Otago,Mosgiel,LAWA-100088,PM10,2023,304,5,4.0
+Otago,Mosgiel,LAWA-100088,PM10,2024,347,1,1.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2016,363,26,15.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2017,365,13,6.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2018,364,18,9.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2019,361,3,3.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2020,362,12,4.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2021,356,6,4.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2022,365,5,2.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2023,365,4,4.0
+Southland,Gore at Main Street,LAWA-100060,PM10,2024,364,2,2.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2016,348,18,13.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2017,349,21,15.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2018,350,20,13.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2019,360,8,4.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2020,360,20,14.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2021,363,7,3.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2022,360,7,2.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2023,358,8,5.0
+Southland,Invercargill at Pomona Street,LAWA-100070,PM10,2024,365,10,5.0
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2019,236,8,
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2020,355,16,
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2021,329,11,
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2022,303,6,
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2023,248,24,
+Southland,Winton at Essex Street,LAWA-100145,PM2.5,2024,75,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2016,309,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2017,365,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2018,360,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2019,365,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2020,332,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2021,332,1,
+Taranaki,Central School,LAWA-103885,PM2.5,2022,169,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2023,364,0,
+Taranaki,Central School,LAWA-103885,PM2.5,2024,366,0,
+Tasman,Plunket AQ,LAWA-100111,PM10,2016,359,11,5.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2017,357,4,2.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2018,361,18,12.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2019,352,9,5.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2020,364,3,3.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2021,358,11,4.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2022,359,1,0.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2023,358,0,0.0
+Tasman,Plunket AQ,LAWA-100111,PM10,2024,350,2,0.0
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2016,278,75,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2017,143,65,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2019,358,64,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2020,360,73,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2021,361,66,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2022,358,56,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2023,358,64,
+Tasman,Plunket AQ,LAWA-100111,PM2.5,2024,355,65,
+Waikato,Billah Street,LAWA-100030,PM10,2016,342,8,5.0
+Waikato,Billah Street,LAWA-100030,PM10,2017,337,15,11.0
+Waikato,Billah Street,LAWA-100030,PM10,2018,340,7,2.0
+Waikato,Billah Street,LAWA-100030,PM10,2019,347,7,5.0
+Waikato,Billah Street,LAWA-100030,PM10,2020,359,16,12.0
+Waikato,Billah Street,LAWA-100030,PM10,2021,365,38,30.0
+Waikato,Billah Street,LAWA-100030,PM10,2022,337,17,12.0
+Waikato,Billah Street,LAWA-100030,PM10,2023,362,24,16.0
+Waikato,Billah Street,LAWA-100030,PM10,2024,366,19,15.0
+Waikato,Billah Street,LAWA-100030,PM2.5,2016,328,91,
+Waikato,Billah Street,LAWA-100030,PM2.5,2017,291,96,
+Waikato,Billah Street,LAWA-100030,PM2.5,2018,280,63,
+Waikato,Billah Street,LAWA-100030,PM2.5,2019,148,25,
+Waikato,Billah Street,LAWA-100030,PM2.5,2020,359,84,
+Waikato,Billah Street,LAWA-100030,PM2.5,2021,365,102,
+Waikato,Billah Street,LAWA-100030,PM2.5,2022,337,69,
+Waikato,Billah Street,LAWA-100030,PM2.5,2023,363,83,
+Waikato,Billah Street,LAWA-100030,PM2.5,2024,366,85,
+Waikato,Bloodbank,LAWA-100032,PM10,2016,364,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2017,352,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2018,356,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2019,357,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2020,350,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2021,357,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2022,337,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2023,365,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM10,2024,364,0,0.0
+Waikato,Bloodbank,LAWA-100032,PM2.5,2023,86,0,
+Waikato,Bloodbank,LAWA-100032,PM2.5,2024,364,6,
+Waikato,Bowling Club,LAWA-100034,PM10,2016,342,0,0.0
+Waikato,Bowling Club,LAWA-100034,PM10,2017,309,3,2.0
+Waikato,Bowling Club,LAWA-100034,PM10,2018,354,0,0.0
+Waikato,Bowling Club,LAWA-100034,PM10,2019,347,1,1.0
+Waikato,Bowling Club,LAWA-100034,PM10,2020,346,2,1.0
+Waikato,Bowling Club,LAWA-100034,PM10,2021,336,0,0.0
+Waikato,Bowling Club,LAWA-100034,PM10,2022,324,0,0.0
+Waikato,Bowling Club,LAWA-100034,PM10,2023,309,9,3.0
+Waikato,Bowling Club,LAWA-100034,PM10,2024,366,4,2.0
+Waikato,Bowling Club,LAWA-100034,PM2.5,2023,178,39,
+Waikato,Bowling Club,LAWA-100034,PM2.5,2024,366,82,
+Waikato,Claudelands,LAWA-100046,PM10,2016,362,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2017,357,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2018,361,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2019,324,1,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2020,362,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2021,323,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2022,291,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2023,362,0,0.0
+Waikato,Claudelands,LAWA-100046,PM10,2024,336,0,0.0
+Waikato,Claudelands,LAWA-100046,PM2.5,2017,60,0,
+Waikato,Claudelands,LAWA-100046,PM2.5,2018,120,2,
+Waikato,Claudelands,LAWA-100046,PM2.5,2019,238,12,
+Waikato,Claudelands,LAWA-100046,PM2.5,2020,362,23,
+Waikato,Claudelands,LAWA-100046,PM2.5,2021,325,9,
+Waikato,Claudelands,LAWA-100046,PM2.5,2022,291,15,
+Waikato,Claudelands,LAWA-100046,PM2.5,2023,358,15,
+Waikato,Claudelands,LAWA-100046,PM2.5,2024,336,13,
+Waikato,Gillies Ave,LAWA-100057,PM10,2016,354,1,1.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2017,346,2,1.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2018,353,2,0.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2019,362,0,0.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2020,348,0,0.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2021,316,10,7.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2022,360,12,4.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2023,365,7,1.0
+Waikato,Gillies Ave,LAWA-100057,PM10,2024,366,10,7.0
+Waikato,Gillies Ave,LAWA-100057,PM2.5,2021,314,76,
+Waikato,Gillies Ave,LAWA-100057,PM2.5,2022,360,58,
+Waikato,Gillies Ave,LAWA-100057,PM2.5,2023,365,66,
+Waikato,Gillies Ave,LAWA-100057,PM2.5,2024,366,71,
+Waikato,Morrinsville College,LAWA-100087,PM10,2016,309,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2017,360,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2018,163,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2019,336,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2020,362,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2021,330,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2022,298,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2023,349,0,0.0
+Waikato,Morrinsville College,LAWA-100087,PM10,2024,358,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2016,263,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2017,356,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2018,365,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2019,346,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2020,364,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2021,363,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2022,360,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2023,362,0,0.0
+Waikato,Thames High School,LAWA-100128,PM10,2024,363,0,0.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2019,47,0,0.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2020,301,0,0.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2021,342,12,5.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2022,358,1,0.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2023,365,1,1.0
+Waikato,Waitomo District Council,LAWA-100137,PM10,2024,360,2,0.0
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2019,46,1,
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2020,301,41,
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2021,342,75,
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2022,360,45,
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2023,365,33,
+Waikato,Waitomo District Council,LAWA-100137,PM2.5,2024,360,42,
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2016,364,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2017,355,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2018,363,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2019,363,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2020,365,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2021,351,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2022,364,1,1.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2023,365,0,0.0
+Wellington,Lower Hutt (Phil Evans Reserve),LAWA-100080,PM10,2024,362,0,0.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2016,353,3,1.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2017,356,6,3.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2018,360,6,3.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2019,356,6,4.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2020,360,1,0.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2021,347,3,1.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2022,365,3,1.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2023,335,1,1.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM10,2024,338,5,3.0
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2016,357,60,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2017,362,76,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2018,351,71,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2019,351,75,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2020,360,86,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2021,359,79,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2022,355,51,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2023,336,59,
+Wellington,Masterton West (Pownall Street),LAWA-100084,PM2.5,2024,323,55,
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2016,363,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2017,361,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2018,360,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2019,364,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2020,364,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2021,364,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2022,359,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2023,360,0,0.0
+Wellington,Upper Hutt (Savage Park),LAWA-100132,PM10,2024,364,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2016,362,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2017,351,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2018,363,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2019,362,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2020,223,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2021,357,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2022,363,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2023,363,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM10,2024,360,0,0.0
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2016,360,17,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2017,357,28,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2018,362,16,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2019,363,15,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2020,360,28,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2021,363,18,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2022,360,8,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2023,364,9,
+Wellington,Wainuiomata (Moohan Street),LAWA-100136,PM2.5,2024,364,13,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2016,314,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2017,363,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2018,364,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2019,360,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2020,362,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2021,363,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2022,365,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2023,354,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM10,2024,361,0,0.0
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2016,300,0,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2017,340,1,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2018,334,0,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2019,365,1,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2020,363,2,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2021,364,0,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2022,352,0,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2023,360,1,
+Wellington,Wellington Central (Willis Street),LAWA-100142,PM2.5,2024,356,0,
+West Coast,Reefton AQ @ Cnr Lucas St and Buller Rd,LAWA-104128,PM10,2016,254,4,1.0
+West Coast,Reefton AQ @ Cnr Lucas St and Buller Rd,LAWA-104128,PM10,2024,243,1,0.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2019,145,0,0.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2020,336,3,2.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2021,343,0,0.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2022,333,1,1.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2023,365,1,0.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM10,2024,366,0,0.0
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2019,145,3,
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2020,337,42,
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2021,343,34,
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2022,333,23,
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2023,365,41,
+West Coast,Reefton AQ at School Pool,LAWA-100116,PM2.5,2024,366,39,
