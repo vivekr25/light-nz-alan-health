@@ -1,14 +1,11 @@
-# --- Core geospatial + analysis ---
-shapely>=2.0
-pyproj
-rasterstats
+streamlit>=1.37
+plotly>=5.23
 pandas>=2.2
-numpy<2
-matplotlib
-requests
-tqdm
+numpy>=1.26
 openpyxl>=3.1
+requests>=2.32
+tqdm>=4.66
 
-# --- Visualisation & dashboards ---
-plotly>=5.22
-streamlit>=1.36
+# optional but useful if you export images later
+pillow>=10.4
+kaleido>=0.2.1
