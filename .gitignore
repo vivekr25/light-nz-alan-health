@@ -26,3 +26,7 @@ data_raw/**
 *.cpg
 *.geojson
 *.pdf
+
+# --- Allow required data files for Streamlit ---
+!data_raw/ta2025_ms_5pct.geojson
+!data_raw/lawa_air-quality-download-data_2016-2024.xlsx
