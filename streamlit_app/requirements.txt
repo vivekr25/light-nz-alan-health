@@ -1,0 +1,11 @@
+plotly==5.24.1
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.2
+requests==2.32.3
+tqdm==4.66.4
+
+# optional but useful if you export images later
+pillow>=10.4
+kaleido>=0.2.1
