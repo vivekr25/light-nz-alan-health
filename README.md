@@ -1,98 +1,76 @@
-# 🌃 NZ Night-time Brightness by Territorial Authority (VIIRS 2021)
+# Alan-NZ: Environment × Health in Aotearoa
 
-This project maps and ranks average night-time **radiance** across New Zealand’s Territorial Authorities (TAs) using NASA’s **VIIRS Night Lights** (2021). It includes both an **interactive choropleth** and static charts.
+🔗 **Live app:** https://light-nz-alan-health.streamlit.app/
 
-**Live map:** 👉 **[Open Interactive Map](https://vivekr25.github.io/light-nz-alan-health/)**
+An interactive data exploration of how **environmental factors**
+(night-time light and air quality) relate to **health outcomes** across Aotearoa New Zealand.
 
-![Map preview](data_proc/ta_brightness_map_1600.png)
+## Why this project exists
 
----
+Public health outcomes are shaped by more than healthcare alone.
+This project explores how **environmental exposure** and
+**built-environment proxies** vary across regions, and how these
+patterns intersect with **health and equity indicators**.
 
-## Key findings (first pass)
+The goal is **exploratory insight**, not causal claims.
 
-- **Overall mean radiance (absolute):**  
-  **Hamilton City** ranks highest, followed by **Tauranga** and **Napier**.  
-  This reflects **total light output over each TA** (urban extent + intensity).
+## What you can explore
 
-- **Radiance per km² (density):**  
-  **Kawerau District** tops the list, then **Hamilton City** and **Napier City**.  
-  Density highlights **concentrated lighting** (e.g., industrial sites or compact urban cores), not just large urban area.
+- 🌃 **Night-time brightness** by Territorial Authority (VIIRS, 2021)
+- 🌬️ **PM₂.₅ and PM₁₀ air pollution** annual means by region (LAWA)
+- ⚖️ **Health × environment comparisons**, including obesity
+- 🧭 **Equity lens** views by ethnicity, deprivation, and region
+- ✨ A **Key insights** page summarising headline findings
 
-- **Why Hamilton > Auckland on the absolute chart?**  
-  Our metric is **TA-average radiance**, not total lumens. Hamilton’s urban area is compact and consistently bright, which pushes up its mean. Auckland’s very large TA includes darker rural/coastal areas that **dilute** the mean.
+## Headline insights
 
-  📊 Radiance Trends and Urban Patterns (2021 Snapshot)
+- Night time brightness is strongly concentrated in major urban
+  Territorial Authorities, reflecting built environment intensity.
+- Regional air pollution levels vary meaningfully year-to-year,
+  with PM₂.₅ patterns differing from PM₁₀.
+- Within regions, obesity prevalence differs by ethnicity and often
+  overlaps with higher pollution exposure and deprivation.
+- These patterns highlight **structural and environmental context**
+  rather than individual level causation.
 
-🗺️ National Trend — VIIRS Annual
-Currently only 2021 data is available, so this chart shows a single point.
-	•	Future additions (2014–2023) will reveal whether NZ’s average night-time brightness — a proxy for urban and economic activity — is rising, flattening, or declining.
-	•	A higher mean than median indicates that a few bright cities (e.g., Hamilton, Tauranga, Auckland) are pulling the national average upward.
-	•	Expected pattern once full data is loaded: a gradual upward drift reflecting expanding infrastructure, housing, and electrification.
+  ## Data sources
 
-  🌆 Top 12 Territorial Authorities by Mean Radiance (2021)
-  The brightest areas include Hamilton City, Tauranga City, Napier City, Wellington, Christchurch, and Kawerau District.
-	•	These represent densely lit urban cores or industrial hubs with concentrated artificial light.
-	•	Hamilton City currently stands out as NZ’s brightest region by mean radiance.
-	•	Once earlier years are added, these small multiples will reveal which cities are growing faster in light intensity and which have stabilized.
+- **NASA VIIRS Night Lights** (2021)
+- **Stats NZ** Territorial Authority boundaries (TA 2025)
+- **LAWA** air quality monitoring data (2016–2024)
+- **Ministry of Health (NZ)** obesity prevalence (2020/21)
 
-  🏙️ City vs District Radiance Distribution (2021)
-  Cities have a much higher median and a broader range of brightness than districts.
-	•	The upper quartile for cities is roughly 10× brighter than the typical district.
-	•	Districts appear dimmer overall because light is averaged over larger, more rural land areas.
-	•	Example:
-	•	Auckland’s mean brightness looks lower than Hamilton’s — not because it’s darker, but because its lighting is spread across a vast area.
-	•	Compact cities like Hamilton or Tauranga have intense light concentration, driving higher mean values.
+All data is publicly available and used for non-commercial,
+exploratory analysis.
 
-  🧭 Summary Insight
+## Project structure
+light-nz-alan-health/
+├── streamlit_app/        # Streamlit application
+├── data_raw/             # Raw input datasets (selected files tracked)
+├── data_proc/            # Processed / derived datasets
+├── scripts/              # Data processing & merge scripts
+├── docs/                 # Optional figures / exports
+└── README.md
 
-New Zealand’s night-time light landscape is dominated by compact urban centers rather than sprawling metros.
-As more years are added, this dataset will help quantify how urban brightness evolves over time — a valuable proxy for both economic activity and energy use efficiency.
-
-⸻
-
-✅ Charts generated using VIIRS Night-time Lights (NASA, 2021) and Stats NZ TA 2025 boundaries.
-💡 Next: Extend dataset to 2014–2023 and visualize longitudinal growth patterns.
-
-### Top 15: absolute mean radiance
-![Top 15 by mean radiance](data_proc/top15_abs_radiance.png)
-
-### Top 15: radiance per km² (density)
-![Top 15 by radiance per km²](data_proc/top15_radiance_per_km2.png)
-
----
-
-## What’s in the repo
-
-- `data_proc/viirs_ta_annual_2021_with_names.csv` – TA-level radiance with names  
-- `data_proc/ta_single_map_toggle.html` – interactive choropleth  
-- `data_proc/ta_brightness_map_1600.png` – static map image  
-- `data_proc/top15_abs_radiance.png` – bar chart (absolute mean)  
-- `data_proc/top15_radiance_per_km2.png` – bar chart (density)
-
----
-
-## Reproduce locally
+## Run locally
 
 ```bash
-conda activate alan-nz
-python scripts/31_single_map_toggle.py        # builds map + PNG
-python scripts/36_normalize_and_rank.py       # builds normalized CSV
-python scripts/37_make_normalized_charts.py   # builds the two charts
+git clone https://github.com/vivekr25/light-nz-alan-health.git
+cd light-nz-alan-health/streamlit_app
+pip install -r requirements.txt
+streamlit run app.py
 
-## Data & credits
-	•	VIIRS Night Lights (2021) – NASA/NOAA
-	•	Administrative boundaries – Stats NZ, TA 2025
-	•	Processing & visualization – Python, Pandas, Plotly.
----
+## Limitations
 
-## 🩺 Obesity vs Night-time Brightness (Health NZ Regions)
+- Observational analysis only (no causal inference)
+- Aggregated regional data may mask local variation
+- Environmental exposure is a proxy, not a direct measure
+- Data years differ slightly across sources
 
-This visual pairs *NASA’s VIIRS 2021 night-lights* with *Ministry of Health 2020/21 adult obesity data* across Health NZ regions and ethnic groups.
+## Next improvements
 
-- **Te Manawa Taki** stands out — the brightest and most uniformly high in obesity across all ethnicities.  
-- **Te Tai Tokerau** and **Te Waipounamu** remain dimmer, yet ethnic disparities persist.  
-- Urban brightness doesn’t erase inequities — it often illuminates them.
+- Add air-quality choropleth maps
+- Convert large Excel inputs to parquet for performance
+- Expand health outcomes beyond obesity
+- Add temporal trend comparisons
 
-![Obesity vs Night-time Brightness Small Multiples](data_proc/obesity_vs_brightness_small_multiples.png)
-
-[🔗 Explore the interactive map](https://vivekr25.github.io/light-nz-alan-health/)
