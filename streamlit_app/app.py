@@ -96,9 +96,146 @@ st.sidebar.title("Alan-NZ")
 st.sidebar.caption("Environment ↔ Health • Aotearoa")
 page = st.sidebar.radio(
     "Navigate",
-    ["Night-lights", "Air quality", "Health × Night-lights", "Equity lens: PM₂.₅ × Obesity", "About"]
+    ["Key insights", "Night-lights", "Air quality", "Health × Night-lights", "Equity lens: PM₂.₅ × Obesity", "About"]
 )
+# -------------------------------------------------
+# Key insights page
+# -------------------------------------------------
+if page == "Key insights":
+    st.title("✨ Key insights (quick read)")
+    st.caption("A small set of takeaways backed by what’s in this repo. Explore details via the other tabs.")
 
+    # ---------- Insight 1: Brightness hotspots (TA) ----------
+    st.subheader("1) Where are the brightest night-time areas?")
+    csv_path = DATA_PROC / "viirs_ta_annual_2021_with_names.csv"
+    gj_path = DATA_RAW / "ta2025_ms_5pct.geojson"
+
+    if not csv_path.exists():
+        note_missing(csv_path, "Generate/commit viirs_ta_annual_2021_with_names.csv to data_proc/.")
+    else:
+        df = load_csv(csv_path).copy()
+
+        # Make sure radiance_mean exists
+        if "radiance_mean" not in df.columns:
+            st.error("Expected column `radiance_mean` in VIIRS CSV but didn’t find it.")
+        else:
+            # Top 10 brightest TAs
+            top_n = 10
+            top = df.sort_values("radiance_mean", ascending=False).head(top_n)
+
+            # Show a neat table
+            cols = [c for c in ["ta_name", "ta_code", "radiance_mean"] if c in top.columns]
+            st.dataframe(
+                top[cols].rename(columns={"radiance_mean": "Mean radiance"}),
+                use_container_width=True,
+                hide_index=True
+            )
+
+            # A simple bar chart (fast and readable)
+            if "ta_name" in top.columns:
+                fig = px.bar(
+                    top.sort_values("radiance_mean", ascending=True),
+                    x="radiance_mean",
+                    y="ta_name",
+                    orientation="h",
+                    labels={"radiance_mean": "Mean night-time brightness (radiance)", "ta_name": "Territorial Authority"},
+                    title="Top 10 brightest TAs (VIIRS 2021)"
+                )
+                fig.update_layout(height=420, margin=dict(l=10, r=10, t=60, b=10))
+                st.plotly_chart(fig, width="stretch")
+
+    st.markdown(
+        "- **Why it matters:** night-time brightness is a decent proxy for urbanisation, activity, and built environment.\n"
+        "- **What to check next:** compare these areas in the **Health × Night-lights** tab."
+    )
+
+    st.divider()
+
+    # ---------- Insight 2: PM2.5 vs PM10 regional ranking ----------
+    st.subheader("2) Which regions have the highest PM₂.₅ / PM₁₀ annual means?")
+    xlsx_path = DATA_RAW / "lawa_air-quality-download-data_2016-2024.xlsx"
+
+    if not xlsx_path.exists():
+        note_missing(xlsx_path, "Commit the LAWA Excel file to data_raw/.")
+    else:
+        annual = load_lawa_annual(xlsx_path)
+
+        # Choose latest year available
+        latest_year = int(annual["year"].max())
+        st.caption(f"Using latest year available in the file: {latest_year}")
+
+        c1, c2 = st.columns([1, 2])
+        with c1:
+            metric = st.radio("Pollutant", ["PM2.5", "PM10"], horizontal=True)
+
+        pick = annual[
+            annual["indicator"].str.contains(metric, case=False, regex=False)
+            & (annual["year"] == latest_year)
+        ].copy()
+
+        pick = pick.sort_values("value_ugm3", ascending=False)
+
+        # Show top 5 regions
+        top5 = pick.head(5)[["region", "value_ugm3"]].rename(columns={"value_ugm3": "µg/m³"})
+        st.dataframe(top5, use_container_width=True, hide_index=True)
+
+        fig = px.bar(
+            pick.head(12),
+            x="region",
+            y="value_ugm3",
+            labels={"value_ugm3": "µg/m³", "region": "Region"},
+            title=f"Top regions by {metric} (annual mean, {latest_year})"
+        )
+        fig.update_layout(xaxis_tickangle=-25, height=420, margin=dict(l=10, r=10, t=60, b=10))
+        st.plotly_chart(fig, width="stretch")
+
+    st.markdown(
+        "- **Why it matters:** long-term exposure to particulate pollution is linked with respiratory and cardiovascular risk.\n"
+        "- **What to check next:** open the **Equity lens** tab to compare pollution with obesity and deprivation."
+    )
+
+    st.divider()
+
+    # ---------- Insight 3: Equity lens headline numbers ----------
+    st.subheader("3) Equity lens headline: PM₂.₅ × obesity patterns (by ethnicity within regions)")
+    csv_merged = DATA_PROC / "air_obesity_by_health_region_2023.csv"
+
+    if not csv_merged.exists():
+        note_missing(csv_merged, "Run scripts/71_merge_pm25_obesity_by_health_region.py to create it.")
+    else:
+        eq = load_csv(csv_merged).copy()
+        eq.columns = [c.strip().replace(" ", "_").lower() for c in eq.columns]
+
+        pol_map = pollutant_options_from(eq)
+        pol_col = pol_map.get("PM2.5") or next(iter(pol_map.values()), None)
+
+        need = {"health_region", "ethnicity", "obesity_rate"}
+        if pol_col is None or not need.issubset(eq.columns):
+            st.error("Equity dataset is missing expected columns. Check your merge script output.")
+        else:
+            # Find the "highest obesity" row for each health region
+            worst = (
+                eq.dropna(subset=[pol_col, "obesity_rate"])
+                  .sort_values(["health_region", "obesity_rate"], ascending=[True, False])
+                  .groupby("health_region", as_index=False)
+                  .head(1)
+            )
+
+            show_cols = ["health_region", "ethnicity", pol_col, "obesity_rate"]
+            pretty = worst[show_cols].rename(columns={
+                pol_col: "PM2.5 (µg/m³, 2023)",
+                "obesity_rate": "Obesity rate (2020/21)"
+            })
+
+            st.dataframe(pretty, use_container_width=True, hide_index=True)
+
+            st.markdown(
+                "Use this as a **starting point** for questions like:\n"
+                "- Do the highest obesity rates within a region line up with higher PM₂.₅?\n"
+                "- Does deprivation (NZDep) appear to amplify both?"
+            )
+
+    st.caption("Note: These are observational comparisons, not proof of cause and effect.")
 # -------------------------------------------------
 # Night-lights page
 # -------------------------------------------------
