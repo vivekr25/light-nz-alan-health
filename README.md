@@ -2,6 +2,17 @@
 
 🔗 **Live app:** https://light-nz-alan-health.streamlit.app/
 
+## Screenshots
+
+### Key insights
+![Key insights page](docs/screenshots/key-insights.png)
+
+### Night-time brightness (VIIRS 2021)
+![Night lights map](docs/screenshots/night-lights.png)
+
+### Equity lens: PM₂.₅ × Obesity
+![Equity lens](docs/screenshots/equity-lens.png)
+
 An interactive data exploration of how **environmental factors**
 (night-time light and air quality) relate to **health outcomes** across Aotearoa New Zealand.
 
