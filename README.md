@@ -50,6 +50,29 @@ The goal is **exploratory insight**, not causal claims.
 - These patterns highlight **structural and environmental context**
   rather than individual level causation.
 
+  ## Limitations & interpretation notes
+
+- **Observational analysis only**  
+  This project explores associations and patterns in aggregated data.
+  It does **not** establish causal relationships between environment and health.
+
+- **Aggregated geography**  
+  Most analyses are performed at Territorial Authority or health-region level.
+  Local variation within regions may be masked.
+
+- **Proxy measures**  
+  Night-time light intensity is used as a proxy for built-environment
+  activity and urbanisation, not individual behaviour or exposure.
+
+- **Temporal alignment**  
+  Data sources span different years (e.g. VIIRS 2021, obesity 2020/21,
+  air quality 2023). Results should be interpreted as broad structural
+  patterns rather than point-in-time comparisons.
+
+- **Environmental exposure ≠ personal exposure**  
+  Regional air-quality averages do not capture individual-level exposure,
+  mobility, indoor environments, or duration of exposure.
+
   ## Data sources
 
 - **NASA VIIRS Night Lights** (2021)
