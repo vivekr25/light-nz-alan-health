@@ -236,6 +236,30 @@ if page == "Key insights":
             )
 
     st.caption("Note: These are observational comparisons, not proof of cause and effect.")
+
+    # ---------- Data sources & interpretation ----------
+    with st.expander("📚 Data sources & interpretation notes"):
+        st.markdown(
+            """
+            **Data sources**
+            - **NASA VIIRS Night Lights** — annual composites (2021)
+            - **Stats NZ** — Territorial Authority boundaries (TA 2025)
+            - **LAWA** — air quality monitoring data (2016–2024)
+            - **Ministry of Health (NZ)** — adult obesity prevalence (2020/21)
+
+            **Interpretation notes**
+            - Visuals show **associations and patterns**, not causal relationships.
+            - Analyses use **aggregated regional data** (TA or health-region level).
+            - Night-time light intensity is a **proxy for built environment activity**,
+              not a direct measure of individual exposure or behaviour.
+            - Air-quality values are **regional annual means** and do not reflect
+              individual-level exposure or mobility.
+            - Data years differ slightly across sources and should be interpreted
+              as broad structural patterns rather than point-in-time comparisons.
+            """
+        )
+        
+            
 # -------------------------------------------------
 # Night-lights page
 # -------------------------------------------------
