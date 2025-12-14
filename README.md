@@ -5,13 +5,19 @@
 ## Screenshots
 
 ### Key insights
+A small set of headline findings derived from publicly available
+environmental and health datasets across Aotearoa New Zealand.
 ![Key insights page](docs/screenshots/key-insights.png)
+*Top 10 brightest Territorial Authorities based on VIIRS night time
+radiance (2021).*
 
 ### Night-time brightness (VIIRS 2021)
 ![Night lights map](docs/screenshots/night-lights.png)
+*NZ Wide relative night time brightness by TA based on VIIRS night time radiance (2021)
 
 ### Equity lens: PM₂.₅ × Obesity
 ![Equity lens](docs/screenshots/equity-lens.png)
+*PM₂.₅ vs obesity by ethnicity within health regions”*
 
 An interactive data exploration of how **environmental factors**
 (night-time light and air quality) relate to **health outcomes** across Aotearoa New Zealand.
