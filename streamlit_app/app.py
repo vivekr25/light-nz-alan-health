@@ -577,8 +577,8 @@ researchers, and policy practitioners.
 
 ### About the author
 
-This project was developed by a health-sector data analyst in Aotearoa New Zealand,
-with experience in public-sector analytics and population-level reporting.
+This project was developed by a health sector data scientist in Aotearoa New Zealand,
+with experience in public sector analytics and population level reporting.
 
 The motivation behind Alan-NZ is to explore how routinely collected environmental
 and health data can be combined to tell clearer, more context-aware stories.
