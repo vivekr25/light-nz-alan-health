@@ -107,7 +107,7 @@ if page == "Key insights":
 
     st.markdown(
         """
-        **Executive summary (30 seconds)**
+        **Executive summary**
 
         **1) Night-time brightness clusters sharply in major urban centres.**  
         The brightest TAs are consistently large metro areas, with a steep drop beyond them.
