@@ -105,6 +105,23 @@ if page == "Key insights":
     st.title("✨ Key insights (quick read)")
     st.caption("A small set of takeaways backed by what’s in this repo. Explore details via the other tabs.")
 
+    st.markdown(
+        """
+        **Executive summary (30 seconds)**
+
+        **1) Night-time brightness clusters sharply in major urban centres.**  
+        The brightest TAs are consistently large metro areas, with a steep drop beyond them.
+
+        **2) Air pollution varies by pollutant and region.**  
+        PM₂.₅ and PM₁₀ do not always rank regions the same way, suggesting different sources and exposure dynamics.
+
+        **3) Equity patterns matter within regions.**  
+        Obesity prevalence varies by ethnicity within the same health region and often overlaps with deprivation and higher exposure context.
+
+        *These are exploratory comparisons, not causal claims.*
+        """
+    )
+
     # ---------- Insight 1: Brightness hotspots (TA) ----------
     st.subheader("1) Where are the brightest night-time areas?")
     csv_path = DATA_PROC / "viirs_ta_annual_2021_with_names.csv"
@@ -258,12 +275,12 @@ if page == "Key insights":
               as broad structural patterns rather than point-in-time comparisons.
             """
         )
-        
-            
+
+
 # -------------------------------------------------
 # Night-lights page
 # -------------------------------------------------
-if page == "Night-lights":
+elif page == "Night-lights":
     st.title("🌃 Night-time brightness by Territorial Authority (VIIRS 2021)")
 
     csv_path = DATA_PROC / "viirs_ta_annual_2021_with_names.csv"
@@ -542,12 +559,33 @@ elif page == "Equity lens: PM₂.₅ × Obesity":
 # -------------------------------------------------
 else:
     st.title("About this project")
+
     st.markdown(
         """
-        **Alan-NZ** is a public, reproducible series exploring how **environment**
-        (night-time light, air quality) relates to **health** across Aotearoa.
+### About this project
 
-        **Built with:** Streamlit, Plotly, Pandas • Data from NASA VIIRS, LAWA, and MoH.
+Alan-NZ is an exploratory data project examining how **environmental context**
+(night-time light and air quality) intersects with **health outcomes** across
+Aotearoa New Zealand.
+
+The goal is not prediction or causal inference, but to surface **structural
+patterns**, raise better questions, and encourage careful interpretation of
+publicly available data.
+
+This work is intended as a starting point for discussion among analysts,
+researchers, and policy practitioners.
+
+### About the author
+
+This project was developed by a health-sector data analyst in Aotearoa New Zealand,
+with experience in public-sector analytics and population-level reporting.
+
+The motivation behind Alan-NZ is to explore how routinely collected environmental
+and health data can be combined to tell clearer, more context-aware stories.
+
+**Built with:** Streamlit, Plotly, Pandas  
+**Data:** NASA VIIRS, Stats NZ, LAWA, Ministry of Health (NZ)
         """
     )
+
     st.write("Repo:", f"{ROOT.name} (GitHub Pages at /docs)")
